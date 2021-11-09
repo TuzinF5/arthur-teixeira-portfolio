@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(217, 240, 240);
+}
+
+h1,
+h3 {
+  padding: 10px 0px;
+}
+
+main {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(207, 207, 207);
+}
+
+main img {
+  border-radius: 50%;
+}
