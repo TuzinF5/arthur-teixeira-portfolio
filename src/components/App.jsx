@@ -1,11 +1,12 @@
 import React from 'react';
+import Home from '../pages/Home';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1>Hello word!!</h1>
-      </div>
+      <>
+      <Home />
+      </>
     );
   }
 }
