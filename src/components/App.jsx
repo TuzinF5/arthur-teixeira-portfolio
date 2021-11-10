@@ -5,9 +5,9 @@ import Home from '../pages/Home';
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={ process.env.PUBLIC_URL }>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={ <Home /> } />
         </Routes>
       </BrowserRouter>
     );
