@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import style from '../styles/Home.module.css';
-import imageArthur from '../images/Arthur.jpg';
+import imageArthur from '../images/Arthur.png';
 
 class Home extends React.Component {
   render() {
