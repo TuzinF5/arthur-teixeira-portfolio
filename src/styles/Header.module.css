@@ -1,0 +1,55 @@
+.header {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header div {
+  width: 45%;
+}
+
+.header div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.header div img {
+  width: 11%;
+  margin-right: 10px;
+}
+
+.header div ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header div ul li a {
+  color: #3b3133;
+  text-decoration: none;
+}
+
+.header div ul li a:hover {
+  color: #70412e;
+  /* color: red; */
+}
+
+/* .home main {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(164, 255, 255);
+}
+
+.home main div, .home main section {
+  width: 50%;
+  text-align: center;
+}
+
+.home footer {
+  text-align: center;
+  background-color: rgb(223, 253, 253);
+} */
