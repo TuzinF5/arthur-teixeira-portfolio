@@ -1,13 +1,28 @@
 .home {
   align-items: center;
-  background-color: rgb(164, 255, 255);
   display: flex;
-  flex-direction: column;
-  margin: 20px 0px;
+  height: 680px;
 }
 
-.home main div,
-.home main section {
+.home section {
+  /* background-color: rgba(249,249,249,0.2); */
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: rgba(51, 51, 51, 0.15);
+  box-shadow: 3px 2px 5px rgba(17, 17, 17, 0.55);
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  justify-content: center;
+  margin-left: 80px;
   text-align: center;
-  width: 50%;
+  width: 595.5px;
+}
+
+.home p {
+  font-size: 5.3em;
+}
+
+.home p:nth-child(3) {
+  font-size: 1.5em;
 }
