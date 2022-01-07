@@ -8,8 +8,8 @@ body {
   background-attachment: fixed;
   background-image: url('../images/coding.jpg');
   background-position: center;
+  background-repeat: no-repeat;
   background-size: 100%;
-
   font-family: 'Futura LT', sans-serif;
   font-size: 16px;
 }
