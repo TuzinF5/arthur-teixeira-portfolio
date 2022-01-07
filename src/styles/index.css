@@ -1,13 +1,13 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   background-color: #f9f9f9;
-  font-size: 16px;
   font-family: 'Futura LT', sans-serif;
+  font-size: 16px;
 }
 
 p, a {

@@ -38,7 +38,7 @@ export default class Header extends Component {
       <header className={ style.header }>
         <div>
           <img src={ imageArthur } alt="Arthur sorrindo" />
-          <p id="linkedin">Arthur Teixeira</p>
+          <p>Arthur Teixeira</p>
         </div>
         <div>
           <nav>

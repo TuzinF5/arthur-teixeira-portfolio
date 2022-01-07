@@ -4,7 +4,7 @@ import Header from '../components/Header';
 export default class Home extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <Header />
 
         {/* <main>
@@ -29,7 +29,7 @@ export default class Home extends React.Component {
         {/* <footer>
           <h1>Feito por Arthur Teixeira</h1>
         </footer> */}
-      </div>
+      </>
     );
   }
 }
