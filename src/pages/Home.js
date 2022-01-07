@@ -1,15 +1,14 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
+// import style from '../styles/Home.module.css';
 
 export default class Home extends React.Component {
   render() {
     return (
       <>
         <Header />
-
-        {/* <main>
-          <div>
-          </div>
+        {/* <main className={ style.home }>
           <section>
             <p>
               Olá, me chamo Arthur, tenho 23 anos.
@@ -25,10 +24,7 @@ export default class Home extends React.Component {
             </p>
           </section>
         </main> */}
-
-        {/* <footer>
-          <h1>Feito por Arthur Teixeira</h1>
-        </footer> */}
+        <Footer />
       </>
     );
   }
