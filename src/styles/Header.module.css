@@ -1,7 +1,7 @@
 .header {
   align-items: center;
   display: flex;
-  height: 120px;
+  height: 140px;
   justify-content: space-evenly;
 }
 
@@ -12,13 +12,13 @@
 .header div:nth-child(1) {
   align-items: center;
   display: flex;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .header img {
   border-radius: 50%;
   margin-right: 20px;
-  width: 11%;
+  width: 100px;
 }
 
 .header p {
