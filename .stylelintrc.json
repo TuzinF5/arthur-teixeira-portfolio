@@ -7,10 +7,7 @@
 			"custom-properties",
 			"declarations"
 		],
-		"order/properties-order": [
-			"width",
-			"height"
-		],
+		"order/properties-order": [],
     "order/properties-alphabetical-order": true
 	}
 }
