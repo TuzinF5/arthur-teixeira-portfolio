@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import style from '../styles/Header.module.css';
-import imageArthur from '../images/Arthur.png';
+import imageArthur from '../images/Arthur.jpg';
 
 export default class Header extends Component {
   constructor() {
