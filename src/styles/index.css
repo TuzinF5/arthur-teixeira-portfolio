@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-attachment: fixed;
   background-image: url('../images/coding.jpg');
@@ -14,6 +18,7 @@ body {
   font-size: 16px;
 }
 
-p, a {
+p,
+a {
   color: #3b3133;
 }
