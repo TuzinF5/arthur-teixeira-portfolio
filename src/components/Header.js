@@ -37,7 +37,7 @@ export default class Header extends Component {
     return (
       <header className={ style.header }>
         <div>
-          <img src={ imageArthur } alt="Arthur sorrindo" />
+          <img src={ imageArthur } alt="Arthur Teixeira sorrindo" />
           <p>Arthur Teixeira</p>
         </div>
         <div>
@@ -63,6 +63,7 @@ export default class Header extends Component {
                   href="https://www.linkedin.com/in/arthur-teixeira-440376218/"
                   target="_blank"
                   rel="noreferrer"
+                  title="Link para o Linkedin de Arthur Teixeira"
                 >
                   <i
                     className={ linkedinClassName }
@@ -78,6 +79,7 @@ export default class Header extends Component {
                   href="https://github.com/TuzinF5"
                   target="_blank"
                   rel="noreferrer"
+                  title="Link para o GitHub de Arthur Teixeira"
                 >
                   <i
                     className={ gitHubClassName }
