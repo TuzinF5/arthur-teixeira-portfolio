@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: #f9f9f9;
+  background-attachment: fixed;
+  background-image: url('../images/coding.jpg');
+  background-position: center;
+  background-size: 100%;
+
   font-family: 'Futura LT', sans-serif;
   font-size: 16px;
 }
