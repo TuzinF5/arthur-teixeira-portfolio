@@ -17,7 +17,6 @@ export default class Header extends Component {
   }
 
   changeClassOnMouseOver({ target }) {
-    // console.log(target.className.includes('linkedin'));
     if (target.className.includes('linkedin')) {
       this.setState({ linkedinClassName: 'bx bxl-linkedin-square bx-tada' });
     } else {
@@ -26,7 +25,6 @@ export default class Header extends Component {
   }
 
   changeClassOnMouseOutput({ target }) {
-    // console.log(target.className.includes('linkedin'));
     if (target.className.includes('linkedin')) {
       this.setState({ linkedinClassName: 'bx bxl-linkedin-square' });
     } else {
