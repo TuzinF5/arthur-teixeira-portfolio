@@ -4,8 +4,9 @@
   padding: 0;
 }
 
-html {
+html.sr .load-hidden {
   scroll-behavior: smooth;
+  visibility: hidden;
 }
 
 body {

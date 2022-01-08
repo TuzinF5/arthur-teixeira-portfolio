@@ -1,24 +1,20 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import sr from '../functions/ScrollReveal';
 
 export default class RevealMe extends React.Component {
   componentDidMount() {
     const config = {
-      origin: 'bottom',
-      duration: 1000,
-      delay: 0,
-      distance: '300px',
-      scale: 1,
-      easing: 'ease',
+      distance: '100px',
+      duration: 2000,
     };
-    sr.reveal(this.box, config);
+    ScrollReveal().reveal(this.box, config);
   }
 
   render() {
     const { children } = this.props;
     return (
       <div
+        className="load-hidden"
         ref={ (c) => {
           this.box = c;
         } }
