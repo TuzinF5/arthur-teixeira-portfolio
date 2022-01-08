@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from '../pages/About';
 import Home from '../pages/Home';
@@ -6,7 +6,7 @@ import Portfolio from '../pages/Portfolio';
 import Resume from '../pages/Resume';
 import Services from '../pages/Services';
 
-class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
       <BrowserRouter basename={ process.env.PUBLIC_URL }>
@@ -21,5 +21,3 @@ class App extends React.Component {
     );
   }
 }
-
-export default App;
