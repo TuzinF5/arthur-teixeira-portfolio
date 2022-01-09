@@ -26,5 +26,5 @@ export default class RevealMe extends React.Component {
 }
 
 RevealMe.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.object).isRequired,
+  children: PropTypes.node.isRequired,
 };
