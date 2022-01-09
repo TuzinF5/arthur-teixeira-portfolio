@@ -11,20 +11,28 @@ export default class RevealMe extends React.Component {
   }
 
   render() {
-    const { children } = this.props;
+    const { children, tag, style } = this.props;
+    const CustomTag = `${tag}`;
+    const customClassName = `load-hidden ${style}`;
     return (
-      <div
-        className="load-hidden"
+      <CustomTag
+        className={ customClassName }
         ref={ (c) => {
           this.box = c;
         } }
       >
         {children}
-      </div>
+      </CustomTag>
     );
   }
 }
 
+RevealMe.defaultProps = {
+  style: '',
+};
+
 RevealMe.propTypes = {
   children: PropTypes.node.isRequired,
+  tag: PropTypes.string.isRequired,
+  style: PropTypes.string,
 };
