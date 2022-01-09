@@ -11,7 +11,7 @@ export default class Home extends Component {
         <Header />
         <main className={ style.home }>
           <section>
-            <RevealMe>
+            <RevealMe tag="div">
               <p>Arthur</p>
               <p>Teixeira</p>
               <p>Uma forte presença online</p>

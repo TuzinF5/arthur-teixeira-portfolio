@@ -11,26 +11,24 @@ export default class About extends Component {
     return (
       <>
         <Header />
-        <RevealMe>
-          <main className={ style.about }>
-            <section>
-              <div>
-                <img src={ imageArthur } alt="Arthur Teixeira sorrindo" />
-              </div>
-              <div>
-                <RevealMe>
-                  <p>Minha história</p>
-                  <p>
-                    Olá, me chamo Arthur, tenho 23 anos. Sou natural de Campinas
-                    - SP, mas atualmente moro em São Gonçalo do Rio Preto - MG.
-                    Gosto de jogos e estudar, tenho facilidade em ajudar e ser
-                    atencioso com as pessoas. Tenho boa criatividade quanto a
-                    pensar e também de resolver problemas.
-                  </p>
-                </RevealMe>
-              </div>
-            </section>
-          </main>
+        <RevealMe tag="main" style={ style.about }>
+          <section>
+            <div>
+              <img src={ imageArthur } alt="Arthur Teixeira sorrindo" />
+            </div>
+            <div>
+              <RevealMe tag="div">
+                <p>Minha história</p>
+                <p>
+                  Olá, me chamo Arthur, tenho 23 anos. Sou natural de Campinas -
+                  SP, mas atualmente moro em São Gonçalo do Rio Preto - MG.
+                  Gosto de jogos e estudar, tenho facilidade em ajudar e ser
+                  atencioso com as pessoas. Tenho boa criatividade quanto a
+                  pensar e também de resolver problemas.
+                </p>
+              </RevealMe>
+            </div>
+          </section>
         </RevealMe>
         <Footer />
       </>
