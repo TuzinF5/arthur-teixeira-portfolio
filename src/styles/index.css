@@ -10,11 +10,7 @@ html.sr .load-hidden {
 }
 
 body {
-  background-attachment: fixed;
-  background-image: url('../images/Coding.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background-color: #f0f0f0;
   font-family: 'Futura LT', sans-serif;
   font-size: 16px;
 }
