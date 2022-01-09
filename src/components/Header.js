@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-max-depth */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import changeClassOnMouseOutputFunction from '../functions/changeClassOnMouseOutput';
+import changeClassOnMouseOverFunction from '../functions/changeClassOnMouseOver';
 import style from '../styles/Header.module.css';
 import imageArthur from '../images/Arthur.jpg';
 
@@ -12,24 +14,8 @@ export default class Header extends Component {
       gitHubClassName: 'bx bxl-github',
     };
 
-    this.changeClassOnMouseOver = this.changeClassOnMouseOver.bind(this);
-    this.changeClassOnMouseOutput = this.changeClassOnMouseOutput.bind(this);
-  }
-
-  changeClassOnMouseOver({ target }) {
-    if (target.className.includes('linkedin')) {
-      this.setState({ linkedinClassName: 'bx bxl-linkedin-square bx-tada' });
-    } else {
-      this.setState({ gitHubClassName: 'bx bxl-github bx-tada' });
-    }
-  }
-
-  changeClassOnMouseOutput({ target }) {
-    if (target.className.includes('linkedin')) {
-      this.setState({ linkedinClassName: 'bx bxl-linkedin-square' });
-    } else {
-      this.setState({ gitHubClassName: 'bx bxl-github' });
-    }
+    this.changeClassOnMouseOver = changeClassOnMouseOverFunction.bind(this);
+    this.changeClassOnMouseOutput = changeClassOnMouseOutputFunction.bind(this);
   }
 
   render() {
