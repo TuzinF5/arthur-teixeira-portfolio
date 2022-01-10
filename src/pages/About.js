@@ -11,7 +11,7 @@ export default class About extends Component {
     return (
       <>
         <Header />
-        <RevealMe tag="main" style={ style.about } config={ { duration: 2000 } }>
+        <main className={ style.about }>
           <section>
             <div>
               <img src={ imageArthur } alt="Arthur Teixeira sorrindo" />
@@ -32,7 +32,7 @@ export default class About extends Component {
               </RevealMe>
             </div>
           </section>
-        </RevealMe>
+        </main>
         <Footer />
       </>
     );
