@@ -3,13 +3,14 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import style from '../styles/Services.module.css';
+import RevealMe from '../components/RevealMe';
 
 export default class Services extends Component {
   render() {
     return (
       <>
         <Header />
-        <main className={ style.services }>
+        <RevealMe tag="main" style={ style.services } config={ { duration: 2000 } }>
           <section>
             <p>Habilidades em programação</p>
             <p>Soluções ágeis</p>
@@ -46,7 +47,7 @@ export default class Services extends Component {
               </div>
             </div>
           </section>
-        </main>
+        </RevealMe>
         <Footer />
       </>
     );
