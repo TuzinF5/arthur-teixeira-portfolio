@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-max-depth */
 import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -16,27 +17,33 @@ export default class Services extends Component {
           <section>
             <div>
               <img
-                src="https://www.mauchampions.com/wp-content/uploads/2017/04/default-image-620x600.jpg"
+                src="https://areademulher.r7.com/wp-content/uploads/2019/11/roxo-conheca-50-curiosidades-sobre-a-cor-que-tem-diversos-significados-7.jpg"
                 alt=""
               />
-              <p>Programação Front-End</p>
-              <p>Superando expectativas</p>
+              <div>
+                <p>Programação Front-End</p>
+                <p>Superando expectativas</p>
+              </div>
             </div>
             <div>
               <img
-                src="https://www.mauchampions.com/wp-content/uploads/2017/04/default-image-620x600.jpg"
+                src="https://areademulher.r7.com/wp-content/uploads/2019/11/roxo-conheca-50-curiosidades-sobre-a-cor-que-tem-diversos-significados-7.jpg"
                 alt=""
               />
-              <p>Javascript</p>
-              <p>Uma estrutura ideal</p>
+              <div>
+                <p>Javascript</p>
+                <p>Uma estrutura ideal</p>
+              </div>
             </div>
             <div>
               <img
-                src="https://www.mauchampions.com/wp-content/uploads/2017/04/default-image-620x600.jpg"
+                src="https://areademulher.r7.com/wp-content/uploads/2019/11/roxo-conheca-50-curiosidades-sobre-a-cor-que-tem-diversos-significados-7.jpg"
                 alt=""
               />
-              <p>CSS</p>
-              <p>Compromisso com a qualidade</p>
+              <div>
+                <p>CSS</p>
+                <p>Compromisso com a qualidade</p>
+              </div>
             </div>
           </section>
         </main>
