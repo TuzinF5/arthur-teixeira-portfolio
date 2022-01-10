@@ -11,13 +11,16 @@ export default class About extends Component {
     return (
       <>
         <Header />
-        <RevealMe tag="main" style={ style.about }>
+        <RevealMe tag="main" style={ style.about } config={ { duration: 2000 } }>
           <section>
             <div>
               <img src={ imageArthur } alt="Arthur Teixeira sorrindo" />
             </div>
             <div>
-              <RevealMe tag="div">
+              <RevealMe
+                tag="div"
+                config={ { distance: '100px', duration: 2000 } }
+              >
                 <p>Minha história</p>
                 <p>
                   Olá, me chamo Arthur, tenho 23 anos. Sou natural de Campinas -

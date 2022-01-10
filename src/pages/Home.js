@@ -11,7 +11,7 @@ export default class Home extends Component {
         <Header />
         <main className={ style.home }>
           <section>
-            <RevealMe tag="div">
+            <RevealMe tag="div" config={ { distance: '100px', duration: 2000 } }>
               <p>Arthur</p>
               <p>Teixeira</p>
               <p>Uma forte presença online</p>
