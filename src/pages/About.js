@@ -23,10 +23,10 @@ export default class About extends Component {
               >
                 <p>Minha história</p>
                 <p>
-                  Olá, me chamo Arthur, tenho 23 anos. Sou natural de Campinas -
+                  Olá, me chamo Arthur, tenho 24 anos. Sou natural de Campinas -
                   SP, mas atualmente moro em São Gonçalo do Rio Preto - MG.
                   Gosto de jogos e estudar, tenho facilidade em ajudar e ser
-                  atencioso com as pessoas. Tenho boa criatividade quanto a
+                  atencioso com as pessoas. Tenho boa criatividade quanto em
                   pensar e também de resolver problemas.
                 </p>
               </RevealMe>
