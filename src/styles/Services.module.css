@@ -1,6 +1,5 @@
 .services {
   align-items: center;
-  background-color: #3b3133;
   display: flex;
   flex-direction: column;
   padding-bottom: 40px;
@@ -37,7 +36,7 @@
 }
 
 .services section:nth-child(2) div {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   width: 31%;
 }
 
