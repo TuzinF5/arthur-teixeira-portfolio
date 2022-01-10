@@ -3,9 +3,10 @@ import style from '../styles/Footer.module.css';
 
 export default class Footer extends Component {
   render() {
+    const today = new Date();
     return (
       <footer className={ style.footer }>
-        <p>Copyright © 2022 | Arthur Teixeira.</p>
+        <p>{`Copyright © ${today.getFullYear()} | Arthur Teixeira.`}</p>
       </footer>
     );
   }
