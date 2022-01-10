@@ -3,10 +3,7 @@ import React from 'react';
 
 export default class RevealMe extends React.Component {
   componentDidMount() {
-    const config = {
-      distance: '100px',
-      duration: 2000,
-    };
+    const { config } = this.props;
     ScrollReveal().reveal(this.box, config);
   }
 
@@ -29,10 +26,12 @@ export default class RevealMe extends React.Component {
 
 RevealMe.defaultProps = {
   style: '',
+  config: {},
 };
 
 RevealMe.propTypes = {
   children: PropTypes.node.isRequired,
-  tag: PropTypes.string.isRequired,
+  config: PropTypes.oneOfType([PropTypes.object]),
   style: PropTypes.string,
+  tag: PropTypes.string.isRequired,
 };
