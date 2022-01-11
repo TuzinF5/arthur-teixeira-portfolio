@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import style from '../styles/Services.module.css';
+import RevealMe from '../components/RevealMe';
 
 export default class Services extends Component {
   render() {
@@ -21,8 +22,12 @@ export default class Services extends Component {
                 alt=""
               />
               <div>
-                <p>Programação Front-End</p>
-                <p>Superando expectativas</p>
+                <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
+                  Programação Front-End
+                </RevealMe>
+                <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
+                  Superando expectativas
+                </RevealMe>
               </div>
             </div>
             <div>
@@ -31,8 +36,12 @@ export default class Services extends Component {
                 alt=""
               />
               <div>
-                <p>Javascript</p>
-                <p>Uma estrutura ideal</p>
+                <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
+                  Javascript
+                </RevealMe>
+                <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
+                  Uma estrutura ideal
+                </RevealMe>
               </div>
             </div>
             <div>
@@ -41,8 +50,12 @@ export default class Services extends Component {
                 alt=""
               />
               <div>
-                <p>CSS</p>
-                <p>Compromisso com a qualidade</p>
+                <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
+                  Css
+                </RevealMe>
+                <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
+                  Compromisso com a qualidade
+                </RevealMe>
               </div>
             </div>
           </section>
