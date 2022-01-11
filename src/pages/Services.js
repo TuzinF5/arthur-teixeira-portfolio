@@ -2,8 +2,9 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import style from '../styles/Services.module.css';
 import RevealMe from '../components/RevealMe';
+import style from '../styles/Services.module.css';
+import imageDefault from '../images/Roxo.jpg';
 
 export default class Services extends Component {
   render() {
@@ -17,10 +18,12 @@ export default class Services extends Component {
           </section>
           <section>
             <div>
-              <img
-                src="https://areademulher.r7.com/wp-content/uploads/2019/11/roxo-conheca-50-curiosidades-sobre-a-cor-que-tem-diversos-significados-7.jpg"
-                alt=""
-              />
+              <div>
+                <img
+                  src={ imageDefault }
+                  alt=""
+                />
+              </div>
               <div>
                 <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
                   Programação Front-End
@@ -31,10 +34,12 @@ export default class Services extends Component {
               </div>
             </div>
             <div>
-              <img
-                src="https://areademulher.r7.com/wp-content/uploads/2019/11/roxo-conheca-50-curiosidades-sobre-a-cor-que-tem-diversos-significados-7.jpg"
-                alt=""
-              />
+              <div>
+                <img
+                  src={ imageDefault }
+                  alt=""
+                />
+              </div>
               <div>
                 <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
                   Javascript
@@ -45,10 +50,12 @@ export default class Services extends Component {
               </div>
             </div>
             <div>
-              <img
-                src="https://areademulher.r7.com/wp-content/uploads/2019/11/roxo-conheca-50-curiosidades-sobre-a-cor-que-tem-diversos-significados-7.jpg"
-                alt=""
-              />
+              <div>
+                <img
+                  src={ imageDefault }
+                  alt=""
+                />
+              </div>
               <div>
                 <RevealMe tag="p" config={ { distance: '50px', duration: 2000 } }>
                   Css

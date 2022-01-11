@@ -37,7 +37,6 @@
 }
 
 .services section:nth-child(2) div {
-  background-color: #f0f0f0;
   width: 31%;
 }
 
@@ -47,6 +46,10 @@
   height: 240px;
   justify-content: space-evenly;
   width: 100%;
+}
+
+.services section:nth-child(2) div div:nth-child(2) {
+  background-color: #f0f0f0;
 }
 
 .services section div div p:nth-child(1) {
