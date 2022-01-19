@@ -1,4 +1,4 @@
-# Olá, sou Arthur Teixeira! 😀
+# Olá, sou Arthur Teixeira! 😊
 
 Tenho um site dedicado a minha apresentação, nele você encontrará informações sobre mim, minhas habilidades, projetos, contato, entre outras coisas.
 
