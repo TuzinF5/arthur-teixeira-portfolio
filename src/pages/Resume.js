@@ -7,6 +7,11 @@ export default class Resume extends Component {
     return (
       <>
         <Header />
+        <main>
+          <section>
+            <p>Onde contarei minha história</p>
+          </section>
+        </main>
         <Footer />
       </>
     );
