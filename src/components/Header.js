@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import changeClassOnMouseOutputFunction from '../functions/changeClassOnMouseOutput';
 import changeClassOnMouseOverFunction from '../functions/changeClassOnMouseOver';
-import style from '../styles/Header.module.css';
 import imageArthur from '../images/Arthur.jpg';
+import style from '../styles/Header.module.css';
 
 export default class Header extends Component {
   constructor() {

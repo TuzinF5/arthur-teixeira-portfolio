@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import RevealMe from '../components/RevealMe';
-import style from '../styles/Services.module.css';
 import imageDefault from '../images/Roxo.jpg';
+import style from '../styles/Services.module.css';
 
 export default class Services extends Component {
   render() {

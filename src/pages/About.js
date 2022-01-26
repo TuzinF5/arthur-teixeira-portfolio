@@ -2,9 +2,9 @@
 import React, { Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import style from '../styles/About.module.css';
-import imageArthur from '../images/Arthur.jpg';
 import RevealMe from '../components/RevealMe';
+import imageArthur from '../images/Arthur.jpg';
+import style from '../styles/About.module.css';
 
 export default class About extends Component {
   render() {
