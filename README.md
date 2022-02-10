@@ -1,5 +1,25 @@
-# Olá, sou Arthur Teixeira! 😊
+<div>
+    <h1 align="center">Boas vindas ao repositório do meu Portfólio Web! 🖥️</h1>
+</div>
 
-Tenho um site dedicado a minha apresentação, nele você encontrará informações sobre mim, minhas habilidades, projetos, contato, entre outras coisas.
+<div>
 
-Acesse [Meu Portfólio Web](https://arthur-teixeira-portfolio.vercel.app/).
+  Fique a vontade para ver como estruturei meus códigos, como montei minhas páginas, ver minha organização de pastas e o que mais desejar.
+
+  Acesse **[Meu Portfólio Web](https://arthur-teixeira-portfolio.vercel.app/)** para ver o resultado.
+
+  Em meu site você encontrará informações sobre mim, minhas habilidades, projetos feitos, contato, entre outras coisas.
+
+  Espero que goste. 🤗
+
+  ##
+
+  <h3>Ferramentas utilizadas:</h3>
+
+  Para construir meu site utilizei **[React](https://reactjs.org/)** 💙, uma biblioteca JavaScript para criar interfaces de usuário.
+
+  Usei **[ScrollReveal](https://scrollrevealjs.org/)**, que é uma biblioteca JavaScript para animar facilmente elementos à medida que entram/saem da janela de visualização.
+
+  Utilizei a **[Vercel](https://vercel.com/)** para hospedar o site, por ser uma plataforma voltada para a hospedagem de aplicações de uma forma bem simples e rápida.
+
+</div>
