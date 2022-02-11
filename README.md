@@ -6,11 +6,11 @@
 
   Fique a vontade para ver como estruturei meus códigos, como montei minhas páginas, ver minha organização de pastas e o que mais desejar.
 
-  Acesse **[Meu Portfólio Web](https://arthur-teixeira-portfolio.vercel.app/)** para ver o resultado.
-
   Em meu site você encontrará informações sobre mim, minhas habilidades, projetos feitos, contato, entre outras coisas.
 
-  Espero que goste. 🤗
+  Ficou curioso para ver como ficou o resultado?
+
+  Acesse **[Meu Portfólio Web](https://arthur-teixeira-portfolio.vercel.app/)**, espero que goste. 🤗
 
   ##
 
