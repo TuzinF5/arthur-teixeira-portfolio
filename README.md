@@ -12,11 +12,17 @@
 
   Acesse **[Meu Portfólio Web](https://arthur-teixeira-portfolio.vercel.app/)**, espero que goste. 🤗
 
+</div>
+
   ##
+
+<div>
 
   <h3>Ferramentas utilizadas:</h3>
 
   Para construir meu site utilizei **[React](https://reactjs.org/)** 💙, uma biblioteca JavaScript para criar interfaces de usuário.
+
+  Para navegar entre as páginas o **[React Router](https://reactrouter.com/)** foi essencial, pois ele permite implementar roteamento dinâmico em um aplicativo web, exibir páginas e permitir que os usuários naveguem nelas.
 
   Usei **[ScrollReveal](https://scrollrevealjs.org/)**, que é uma biblioteca JavaScript para animar facilmente elementos à medida que entram/saem da janela de visualização.
 
