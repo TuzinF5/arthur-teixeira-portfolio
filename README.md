@@ -8,7 +8,7 @@
 
   Em meu site você encontrará informações sobre mim, minhas habilidades, projetos feitos, contato, entre outras coisas.
 
-  Ficou curioso para ver como ficou o resultado?
+  Ficou curioso(a) para ver como ficou o resultado?
 
   Acesse **[Meu Portfólio Web](https://arthur-teixeira-portfolio.vercel.app/)**, espero que goste. 🤗
 
