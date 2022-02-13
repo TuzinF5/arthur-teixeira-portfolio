@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import changeClassOnMouseOutputFunction from '../functions/changeClassOnMouseOutput';
 import changeClassOnMouseOverFunction from '../functions/changeClassOnMouseOver';
+import toggleMenuFunction from '../functions/toggleMenu';
 import imageArthur from '../images/Arthur.jpg';
 import style from '../styles/Header.module.css';
 
@@ -12,14 +13,16 @@ export default class Header extends Component {
     this.state = {
       linkedinClassName: 'bx bxl-linkedin-square',
       gitHubClassName: 'bx bxl-github',
+      navId: '',
     };
 
     this.changeClassOnMouseOver = changeClassOnMouseOverFunction.bind(this);
     this.changeClassOnMouseOutput = changeClassOnMouseOutputFunction.bind(this);
+    this.toggleMenu = toggleMenuFunction.bind(this);
   }
 
   render() {
-    const { linkedinClassName, gitHubClassName } = this.state;
+    const { linkedinClassName, gitHubClassName, navId } = this.state;
     return (
       <header className={ style.header }>
         <div>
@@ -27,7 +30,14 @@ export default class Header extends Component {
           <p>Arthur Teixeira</p>
         </div>
         <div>
-          <nav>
+          <nav id={ navId }>
+            <button
+              type="button"
+              aria-label="Menu"
+              onClick={ () => this.toggleMenu(navId) }
+            >
+              <i className="bx bx-menu" />
+            </button>
             <ul>
               <li>
                 <Link to="/">Início</Link>
