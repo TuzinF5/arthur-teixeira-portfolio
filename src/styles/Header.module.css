@@ -27,6 +27,26 @@
   font-size: 2em;
 }
 
+.header button {
+  background-color: #c5c5c5;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.header button:hover {
+  background-color: #70412e;
+}
+
+.header button i {
+  color: #3b3133;
+}
+
+.header button i:hover {
+  color: #c5c5c5;
+}
+
 .header div:nth-child(2) nav ul,
 .header div:nth-child(2) nav ul li a i {
   align-items: center;
