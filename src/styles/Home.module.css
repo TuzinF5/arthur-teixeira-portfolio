@@ -1,5 +1,4 @@
 .home {
-  align-items: center;
   background-attachment: fixed;
   background-image: url('../images/Coding.jpg');
   background-position: center;
@@ -15,9 +14,9 @@
   display: flex;
   height: 520px;
   justify-content: center;
-  margin-left: 80px;
+  margin: 80px 0 0 80px;
   text-align: center;
-  width: 595.5px;
+  width: 596px;
 }
 
 .home p {
