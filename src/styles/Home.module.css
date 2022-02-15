@@ -3,7 +3,7 @@
   background-image: url('../images/Coding.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   height: 680px;
 }
@@ -25,4 +25,29 @@
 
 .home p:nth-child(3) {
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 480px) {
+  .home {
+    align-items: center;
+    height: 380px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    width: 100%;
+  }
+
+  .home section {
+    height: 260px;
+    margin: 0;
+    width: 80%;
+  }
+
+  .home p {
+    font-size: 2.3em;
+  }
+
+  .home p:nth-child(3) {
+    font-size: 1.3em;
+  }
 }
