@@ -12,9 +12,9 @@ export default class Home extends Component {
         <main className={ style.home }>
           <section>
             <RevealMe tag="div" config={ { distance: '100px', duration: 2000 } }>
-              <p>Arthur</p>
-              <p>Teixeira</p>
-              <p>Uma forte presença online</p>
+              <p>Desenvolvedor</p>
+              <p>Front-End</p>
+              {/* <p>Uma forte presença online</p> */}
             </RevealMe>
           </section>
         </main>
