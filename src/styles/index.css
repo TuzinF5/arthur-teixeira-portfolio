@@ -19,3 +19,9 @@ p,
 a {
   color: #3b3133;
 }
+
+#active ul {
+  height: calc(100vh - 100px);
+  overflow: auto;
+  visibility: visible;
+}
