@@ -4,6 +4,7 @@
   display: flex;
   height: 140px;
   justify-content: space-evenly;
+  z-index: 10;
 }
 
 .header div {
@@ -78,4 +79,61 @@
 
 .header li:nth-child(7):hover a {
   color: #7f13d8;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    height: 100px;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .header div {
+    width: auto;
+  }
+
+  .header div:nth-child(1) {
+    padding-left: 0;
+  }
+
+  .header p {
+    font-size: 1.5em;
+  }
+
+  .header img {
+    height: 70px;
+    margin-right: 10px;
+    width: 70px;
+  }
+
+  .header div:nth-child(2) nav ul {
+    background-color: #f0f0f0;
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    transition: 0.7s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .header div:nth-child(2) nav ul li {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin: 0 2rem;
+    padding: 0.4rem 0;
+    text-align: center;
+  }
+
+  .header a {
+    font-size: 1.4em;
+  }
+
+  .header button {
+    display: flex;
+  }
 }

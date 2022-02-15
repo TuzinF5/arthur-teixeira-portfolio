@@ -20,8 +20,23 @@ a {
   color: #3b3133;
 }
 
-#active ul {
-  height: calc(100vh - 100px);
-  overflow: auto;
-  visibility: visible;
+@media screen and (max-width: 480px) {
+  #active ul {
+    height: calc(100vh - 100px);
+    overflow: auto;
+    visibility: visible;
+  }
+
+  #active span {
+    border-top-color: transparent;
+  }
+
+  #active span::before {
+    transform: rotate(135deg);
+  }
+
+  #active span::after {
+    top: -9px;
+    transform: rotate(-135deg);
+  }
 }
