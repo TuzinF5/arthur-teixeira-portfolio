@@ -36,7 +36,7 @@ export default class Header extends Component {
               aria-label="Menu"
               onClick={ () => this.toggleMenu(navId) }
             >
-              <i className="bx bx-menu" />
+              <span />
             </button>
             <ul>
               <li>
