@@ -73,11 +73,11 @@
 .header a:hover {
   color: #70412e;
 }
-.header li:nth-child(6):hover a {
+.header li:nth-child(6) a:hover {
   color: #0a66c2;
 }
 
-.header li:nth-child(7):hover a {
+.header li:nth-child(7) a:hover {
   color: #7f13d8;
 }
 
@@ -131,6 +131,12 @@
 
   .header a {
     font-size: 1.4em;
+  }
+
+  .header li:nth-child(6) a,
+  .header li:nth-child(7) a {
+    display: inline-block;
+    width: 40px;
   }
 
   .header button {
