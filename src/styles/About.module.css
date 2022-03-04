@@ -1,32 +1,14 @@
 .about {
   display: flex;
-  height: 880px;
   justify-content: center;
-  margin: 80px 0px 40px 0px;
+  margin: 80px 0px 40px;
 }
 
 .about section {
-  display: flex;
-  justify-content: center;
-  width: 88%;
-}
-
-.about div {
-  width: 50%;
-}
-
-.about img {
-  width: 100%;
-}
-
-.about div div {
-  width: 80%;
-}
-
-.about div:nth-child(2) {
   background-color: #f0f0f0;
   display: flex;
   justify-content: center;
+  width: 88%;
 }
 
 .about p {
@@ -35,10 +17,29 @@
 
 .about p:nth-child(1) {
   font-size: 3em;
-  margin: 100px 0px 30px 0px;
+  margin: 30px 0px;
 }
 
 .about p:nth-child(2) {
   font-size: 1.3em;
   line-height: 1.75;
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    margin: 0px;
+    position: relative;
+    top: 100px;
+  }
+
+  .about section {
+    flex-direction: column;
+    margin: 60px 0px 30px 0px;
+    padding: 0px 10px 30px;
+    width: 80%;
+  }
+
+  .about p:nth-child(1) {
+    font-size: 2.3em;
+  }
 }
