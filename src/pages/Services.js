@@ -20,8 +20,8 @@ export default class Services extends Component {
             <div>
               <div>
                 <img
-                  src={ imageDefault }
-                  alt=""
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                  alt="html5"
                 />
               </div>
               <div>
@@ -36,8 +36,8 @@ export default class Services extends Component {
             <div>
               <div>
                 <img
-                  src={ imageDefault }
-                  alt=""
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="javascript"
                 />
               </div>
               <div>
@@ -52,8 +52,8 @@ export default class Services extends Component {
             <div>
               <div>
                 <img
-                  src={ imageDefault }
-                  alt=""
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                  alt="css3"
                 />
               </div>
               <div>
